@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenu sur la page ajouter produit</title>
+    <link rel="stylesheet" href="ajouterproduit.css">
+    <script src="https://kit.fontawesome.com/4ab21183ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <!--  Sidebar-Gauche  -->
+    </div>
+    <div class="container2">
+        <div>
+            <h2>Ajouter Produit</h2>
+        </div>
+            <div class="upload-container">
+                <input type="file" id="upload" name="upload" accept="image/*" required>
+                <label for="upload" class="upload-label">
+                <i class="fa-solid fa-file-circle-plus"></i>
+                </label>
+            </div>
+
+            <form>
+                <div>
+                  <label for="nom-produit">Nom du produit :</label>
+                  <input type="text" id="nom-produit" name="nom-produit" required>
+                </div>
+                <div>
+                    <label for="prix-produit">Prix :</label>
+                    <input type="number" id="prix-produit" name="prix-produit" min="0" step="1" required>
+                  </div>
+                <div>
+                    <label for="prix-produit">Quantité :</label>
+                    <input type="number" id="prix-produit" name="prix-produit" min="0" step="1" required>
+                  </div>
+                <div>
+                  <label for="description-produit">Description :</label>
+                  <textarea id="description-produit" name="description-produit" required></textarea>
+                </div>
+                <div>
+                  <button type="submit">Enregistrer</button>
+                </div>
+              </form>
+              
+              
+    </div>
+        
+</body>
+</html>

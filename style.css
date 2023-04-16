@@ -1,0 +1,93 @@
+.container2 {
+    background: #F5DEC1;
+    margin: 25px 30px 35px 230px;
+    padding: 2% 0 15px 0;
+    border-radius: 20px;
+}
+
+.container2 h2 {
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 6px;
+    width: 19%;
+    margin-left: 40%;
+
+
+    /*position: relative;
+    bottom: 210px;
+    left: 40%;
+    width: 210px; */
+    
+    
+
+}
+
+p {
+    text-align: center;
+    margin-top: 80px;
+
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+    font-weight: bold;
+}
+
+th {
+    background-color: #DE8E59;
+    color: black;
+}
+
+/* Classe pour coloré les id de produit en bleu*/
+.id {
+    color: #0B6DFF;
+}
+
+/* La pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+.pagination ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.pagination li {
+    margin: 0 5px;
+  }
+  
+.pagination li a {
+    color: #000;
+    background-color: #DE8E59;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+  
+.pagination li a:hover {
+    background-color: #F5DEC1;
+  }
+  
